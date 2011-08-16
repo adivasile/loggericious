@@ -1,4 +1,3 @@
-
 require "loggericious/version"
 
 module Loggericious

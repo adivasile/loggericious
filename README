@@ -1,13 +1,24 @@
 Loggericious
 ===========
 
-Introduction goes here.
+Small little plugin I made to format my log output, so I can better understand what it's saying.
+It adds a timestamp, coloring and indentation.
+It also adds a new method called +taste+. This will automatically call +.inspect+ on what you
+are trying to print in the log.
+
 
 
 Example
 =======
 
-Example goes here.
+Rails.logger.taste @posts =>
+22:31:02 #      >>>>> [#<Post id: 1, title: "Title", content: "Lorem ipsum dolor sit amet.", created_at: "2011-08-16 18:56:51", updated_at: "2011-08-16 18:56:55">] <<<<<<
+
+
+Disclaimer:
+  This is just some little thing I toyed with and made for myself. I don't recommend that you use this in a production environment.
+  Also, because it adds color to bash output, your log files will be harder to read because of the color markers bash uses.You can still read it as it
+  was intended by opening it in a bash terminal.
 
 
 Copyright (c) 2010 [Adrian Vasile], released under the MIT license
