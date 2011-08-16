@@ -1,3 +1,6 @@
+
+require "loggericious/version"
+
 module Loggericious
   def self.included(klass)
     klass.alias_method_chain(:add, :taste)
@@ -50,4 +53,6 @@ module Loggericious
   end
 
 end
+
+
 
