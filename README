@@ -17,8 +17,7 @@ Rails.logger.taste @posts =>
 
 Disclaimer:
   This is just some little thing I toyed with and made for myself. I don't recommend that you use this in a production environment.
-  Also, because it adds color to bash output, your log files will be harder to read because of the color markers bash uses.You can still read it as it
-  was intended by opening it in a bash terminal.
+  Also, because it adds color to bash output, your log files will be harder to read because of the color markers bash uses.You can still read it as it was intended by opening it in a bash terminal.
 
 
 Copyright (c) 2010 [Adrian Vasile], released under the MIT license
